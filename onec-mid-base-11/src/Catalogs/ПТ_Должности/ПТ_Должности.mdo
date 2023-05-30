@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3af76ecd-3588-420b-ac37-c68512c4f9ae">
+  <producedTypes>
+    <objectType typeId="6a1610f7-691e-4112-8d16-d74ec3fd0f8a" valueTypeId="99beb56f-c69e-4418-b137-06583b8fad7b"/>
+    <refType typeId="b703e4fc-a31c-4da1-8ff4-c840099d968f" valueTypeId="47ab003f-6348-4df0-a246-666ed818ca92"/>
+    <selectionType typeId="5529d67d-2084-4730-a710-ab647ca6d5bc" valueTypeId="19def763-08c2-4d02-a2b9-062925b99f80"/>
+    <listType typeId="a2df7f80-b59e-479b-b48d-3b31fdb15c5f" valueTypeId="37ec5388-d7ff-4a1f-bc74-226497b2a66e"/>
+    <managerType typeId="3a0725d1-cee8-4246-8ccf-b8bc13b3645b" valueTypeId="547f1a68-fe2a-4fa1-b788-306677cc4c2a"/>
+  </producedTypes>
+  <name>ПТ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПТ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПТ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
